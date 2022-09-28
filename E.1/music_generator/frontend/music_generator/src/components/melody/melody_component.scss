@@ -1,0 +1,18 @@
+@import '../../App.scss';
+
+.delete_btn {
+    padding: 5px 40px;
+    background-color: $darkest;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: $primary_font;
+    letter-spacing: 2px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 24px;
+    background: #4e0508;
+    box-shadow: inset -25px -25px 49px #240202,
+                inset 25px 25px 49px #71141a;
+    cursor: pointer;
+}

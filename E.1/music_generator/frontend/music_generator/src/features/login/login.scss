@@ -1,0 +1,49 @@
+@import '../../App.scss';
+.sectionLogin {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    & .titleMain {
+        text-align: center;
+        font-family: $primary_font;
+        text-transform: uppercase;
+        color: #fff;
+        margin-top: 35px;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    .textInput {
+        padding: 10px 30px;
+        text-align: left;
+        border: unset;
+        background: $background;
+        font-family: $primary_font;
+        font-size: $text-size;
+        margin-bottom: 35px;
+    }
+}
+
+.Btn {
+    margin-top: 50px;
+    padding: 15px 40px;
+    background-color: $darkest;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $primary_font;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 24px;
+    background: #10403B;
+    box-shadow: inset -25px -25px 49px #0d332f,
+                inset 25px 25px 49px #134d47;
+    cursor: pointer;
+}

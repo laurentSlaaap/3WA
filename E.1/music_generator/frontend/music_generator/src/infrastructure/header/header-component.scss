@@ -1,0 +1,41 @@
+@import '../../App.scss';
+
+.Header {
+    background-color: $darkest;
+ 
+    width: 100vw;
+    top: 0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 9px 10px -1px #05060698;
+    & .Header-title {
+        font-weight: bold;
+        font-size: 44px;
+        margin: 0;
+        & h2 {
+            margin: 0;
+        }
+    }
+    & .Header-credits {
+        font-weight: 100;
+        font-size: 12px;
+    }
+}
+.nav__list-item {
+    cursor: pointer;
+    background-color:#fff;
+    font-family: $primary_font;
+    font-size: 14px;
+    color: #000;
+    border: 0;
+    padding: 10px 35px;
+    border-radius: 24px;
+    margin: 0 10px;
+    box-shadow: inset -25px -25px 49px #fff,
+                inset 25px 25px 49px #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}

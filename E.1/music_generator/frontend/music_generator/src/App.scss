@@ -1,0 +1,25 @@
+/*
+** globals variables of this project
+*/
+
+$background : #127369;
+$darkest    : #10403B;
+$text       : #BFBFBF;
+$highlight  : #8AA6A3;
+$gray       : #4C5958;
+
+
+
+body {
+  background-color: $background;
+  overflow-x: hidden;
+}
+
+/*
+** Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,900;1,100;1,600&display=swap');
+$primary_font :'Poppins', 'Serif';
+$text-size : 16px;
+$h2 : 24px;
+$h1 : 44px;

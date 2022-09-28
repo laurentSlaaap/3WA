@@ -1,0 +1,95 @@
+@import '../../App.scss';
+
+.music_form {
+    font-family: $primary_font;
+    font-size: $text-size;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+
+    & .label_file {
+        cursor: pointer;
+        background-color: $darkest;
+        color: #fff;
+        padding: 10px 35px;
+        border-radius: 24px;
+        background: #10403B;
+        box-shadow: inset -25px -25px 49px #0d332f,
+                    inset 25px 25px 49px #134d47;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    & .input_file {
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+        width: 0.1px;
+        height: 0.1px;
+    }
+
+    & .label_speed {
+        margin-top: 50px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #fff;
+    }
+
+    & input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+    & .input_speed:focus-visible {
+        outline: none;
+    }
+
+    & .input_speed {
+        margin-top: 20px;
+        background: none;
+        border: none;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding: 0;
+        width: 50px;
+        border-bottom: 6px solid $darkest;
+    }
+    & .generation_btn {
+        margin-top: 50px;
+        padding: 15px 40px;
+        background-color: $darkest;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: $primary_font;
+        letter-spacing: 2px;
+        font-size: 18px;
+        border: 0;
+        border-radius: 24px;
+        background: #10403B;
+        box-shadow: inset -25px -25px 49px #0d332f,
+                    inset 25px 25px 49px #134d47;
+        cursor: pointer;
+    }
+
+    & span {
+        margin-top: 50px;
+        background-color: #000;
+        &  * {
+            background-color: #fff;
+        }
+    }
+}
+.loading {
+    font-family: $primary_font;
+    font-size: $text-size;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: 1px;
+
+}
